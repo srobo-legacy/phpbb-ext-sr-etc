@@ -1,0 +1,8 @@
+services:
+    # Handles installing our language tweaks
+    sr.etc.user_listener:
+        class: sr\etc\event\user_listener
+        tags:
+            - { name: event.listener }
+        arguments:
+            - @user
