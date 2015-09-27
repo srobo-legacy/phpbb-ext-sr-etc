@@ -24,7 +24,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 
 	'LOGIN_ERROR_PASSWORD'				=> 'You have specified an incorrect password. Please check your password and try again. If you cannot remember your password you should ask your team-leader to reset it.',
-	'LOGIN_ERROR_USERNAME'				=> 'You have specified an incorrect username. Please check your username and try again. If you cannot remember your usernameyou should ask your team-leader to tell you what it is.',
+	'LOGIN_ERROR_USERNAME'				=> 'You have specified an incorrect username. Please check your username and try again. If you cannot remember your username you should ask your team-leader to tell you what it is.',
 	'LOGIN_INFO'						=> 'In order to login you must have a registered <a href="/docs/user_accounts">Student Robotics account</a>. If you need an account you should ask your team-leader to create one.',
 
 ));
