@@ -16,12 +16,18 @@ html, body {
     display: none;
 }
 #site-description > p {
-    float: right;
-    margin-right: 10px;
-    margin-top: 22px;
+    clear: both;
+    float: left;
+    /*
+    The logo is 52px circular, with a 10px gap to the right before the text we
+    also apply a 10px margin left in CSS and we want this text to line up with
+    the text in the logo: 10 + 52 + 10 = 72.
+    */
+    margin-left: 72px;
+    margin-top: -5px;
 }
 #logo {
-    padding: 10px;
+    padding: 10px 10px 0;
 }
 .site_logo {
     background-image: url("./images/logo-text.png");
