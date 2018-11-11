@@ -23,7 +23,7 @@ html, body {
 #logo {
     padding: 10px;
 }
-.imageset.site_logo {
+.site_logo {
     background-image: url("./images/logo-text.png");
     background-size: 100%;
     height: 52px;
